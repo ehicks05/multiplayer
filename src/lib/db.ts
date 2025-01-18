@@ -9,6 +9,7 @@ const _schema = i.schema({
 			presence: i.entity({
 				name: i.string(),
 				status: i.string(),
+				color: i.string(),
 			}),
 			topics: {
 				// 3. You can define payloads for different topics here
